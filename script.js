@@ -1,7 +1,7 @@
 // Clues and answers
 const clues = [
   {
-    clue: "Clue 1: أيه هوا إسم اعفن حد فالعالم بيختار فديوهات واحنا بناكل😂 ؟ (Hint: مش محتاجه حاجه يعني.)",
+    clue: "Clue 1: أيه هوا إسم اكتر حد فالعالم بيختار فديوهات معفنه واحنا بناكل😂 ؟ (Hint: مش محتاجه حاجه يعني.)",
     answer: "تقي"
   },
   {
@@ -85,7 +85,7 @@ submitButton.addEventListener("click", () => {
       // Define the final message
       const finalMessage = `
         Congratulations you found the treasure and the treasure is Me  !
-        يا دين امي علي العبقريه بجد انا مش مصدق انك عرفتي تجاوبي طول عمري بقول انك اذكي واحده ف الدنيا دي وعبقريه وبجد بجد صداااع مين كتر النبغه الي انتي فيها لو ذكيه كدا ف الدراسه هتبقي الاولي ع الجمهورية ربنا يحميكي لمصر ويديم هبله وعبطك وتفضلي دايما متخلفه واهزق فيكي كدا كتير يارب
+        يا دين امي علي العبقريه بجد انا مش مصدق انك عرفتي تجاوبي طول عمري بقول انك اذكي واحده ف الدنيا دي وعبقريه وبجد بجد صداااع من كتر النبغه الي انتي فيها لو ذكيه كدا ف الدراسه هتبقي الاولي ع الجمهورية ربنا يحميكي لمصر ويديم هبله وعبطك وتفضلي دايما متخلفه واهزق فيكي كدا كتير يارب
         My Toto✨,
           From the moment you came into my life, I knew I had found someone truly special. I need you to know, with every beat of my heart, that you are never alone. With my existence, you have nothing to fear—I will always be here to protect, support, and stand by your side.
           No matter what life throws our way, I promise to be your rock, your shield, and your safe place. When the world feels overwhelming, lean on me. When doubts creep in, let me remind you of your strength and worth. When you feel lost, I will hold your hand and guide you back to the warmth of love and comfort.

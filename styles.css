@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: 'Lora', serif;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.game-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px; /* Increased padding */
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px; /* Wider container */
+  width: 90%; /* Responsive width */
+  animation: fadeIn 1s ease-in-out;
+}
+
+.header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  color: #e74c3c;
+  margin: 0;
+  animation: float 3s ease-in-out infinite;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#clue-container {
+  margin-top: 30px; /* Increased margin */
+}
+
+#clue-text {
+  font-size: 15px; /* Larger font size */
+  color: #333;
+  font-style: italic;
+  margin-bottom: 25px; /* Increased margin */
+  line-height: 1.6; /* Better line spacing */
+}
+
+#answer-input {
+  padding: 15px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  width: 90%; /* Wider input */
+  border: 2px solid #e74c3c;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#answer-input:focus {
+  border-color: #c0392b;
+}
+
+#submit-button {
+  padding: 15px 30px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px; /* Increased margin */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+#message {
+  margin-top: 30px; /* Increased margin */
+  color: #e74c3c;
+  animation: fadeIn 1s ease-in-out;
+}
+
+#message h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px; /* Larger font size */
+  margin: 0;
+}
+
+#message p {
+  font-size: 20px; /* Larger font size */
+  margin-top: 15px; /* Increased margin */
+  line-height: 1.6; /* Better line spacing */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
+}@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s;
+}

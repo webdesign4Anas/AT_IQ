@@ -90,7 +90,7 @@ submitButton.addEventListener("click", () => {
           From the moment you came into my life, I knew I had found someone truly special. I need you to know, with every beat of my heart, that you are never alone. With my existence, you have nothing to fear—I will always be here to protect, support, and stand by your side.
           No matter what life throws our way, I promise to be your rock, your shield, and your safe place. When the world feels overwhelming, lean on me. When doubts creep in, let me remind you of your strength and worth. When you feel lost, I will hold your hand and guide you back to the warmth of love and comfort.
           You don’t have to carry your burdens alone, Your happiness, your dreams, and your peace mean everything to me. Through every storm, I will be your shelter. Through every challenge, I will be your strength. Through every joy, I will be the one celebrating with you.
-          I know that You’ve always known I’m not the safest choice—the bad boy, the one who doesn’t play by the rules, but know that You will be safe, now and always.
+          I know that You’ve always known I’m not the safest choice—the bad boy, the one who doesn’t play by the rules, but know that no matter my past , pesona, You will be safe, now and always.
           Forever Protector,
           [𝓪𝓷𝓪𝓼]
         

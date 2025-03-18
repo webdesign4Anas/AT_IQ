@@ -16,7 +16,7 @@ const clues = [
     clue: "Clue 4: مبتغلطش مبتتقمصش بتذاكر 24 ساعه بتحب المذاكرة اد عينيها وبتكره الخروج والافراح ودايما شايفه انس غلطان وهوا السبب ف حرب اكتوبر والعدوان الثلاثي وان المايه متكونه من ذره هيدروجين واتنين اكسجين  (Hint: 😂مفيش لا)",
     answer: "تقي"
   },
-   {
+  {
     clue: "Clue 5: بحبها اوي ونفسي تقضي ايامك كلها معاها وتبقي البيست بتاعك  (Hint: راسك هتتفصل عن جسمك)",
     answer: "روفيدا"
   },
@@ -34,49 +34,63 @@ const answerInput = document.getElementById("answer-input");
 const submitButton = document.getElementById("submit-button");
 const message = document.getElementById("message");
 const backgroundMusic = document.getElementById("background-music");
-const wrongAnswerSound = document.getElementById("wrong-answer-sound");
 
-// Enable audio on user interaction (click anywhere on the page)
-document.addEventListener("click", () => {
-  if (backgroundMusic.paused) {
-    backgroundMusic.play().then(() => {
-      backgroundMusic.pause(); // Pause immediately after enabling
-      backgroundMusic.currentTime = 0; // Reset to start
-    });
-  }
-});
+// Array of wrong answer audio file paths
+const wrongAnswerSounds = [
+  "wrong1.mp3",
+  "wrong2.mp3",
+  "wrong3.mp3",
+  "wrong4.mp3",
+  "wrong5.mp3",
+  "wrong6.mp3",
+  "wrong7.mp3",
+  "wrong8.mp3",
+  "wrong9.mp3"
+];
 
-// Display the first clue
-clueText.textContent = clues[currentClueIndex].clue;
+// Function to play a random wrong answer sound
+function playRandomWrongAnswerSound() {
+  const randomIndex = Math.floor(Math.random() * wrongAnswerSounds.length);
+  const randomAudioFile = wrongAnswerSounds[randomIndex];
+  const audio = new Audio(randomAudioFile);
+  audio.play().catch((error) => {
+    console.error("Failed to play audio:", error);
+  });
+}
 
 // Function to type out text letter by letter
 function typeText(element, text, speed = 100) {
   let index = 0;
-  element.innerHTML = ""; // Clear the element's content
+  element.innerHTML = "";
   const typingInterval = setInterval(() => {
     if (index < text.length) {
-      element.innerHTML += text.charAt(index); // Add the next character
+      element.innerHTML += text.charAt(index);
       index++;
     } else {
-      clearInterval(typingInterval); // Stop the interval when done
+      clearInterval(typingInterval);
     }
-  }, speed); // Adjust speed (in milliseconds) for typing effect
+  }, speed);
 }
 
 // Function to trigger confetti animation
 function triggerConfetti() {
   confetti({
-    particleCount: 150, // Number of confetti particles
-    spread: 70, // How far the confetti spreads
-    origin: { y: 0.6 }, // Start from the bottom of the screen
-    colors: ['#ff9a9e', '#fad0c4', '#e74c3c', '#c0392b'], // Romantic colors
+    particleCount: 150,
+    spread: 70,
+    origin: { y: 0.6 },
+    colors: ['#ff9a9e', '#fad0c4', '#e74c3c', '#c0392b'],
   });
 }
 
 // Handle submit button click
 submitButton.addEventListener("click", () => {
   const userAnswer = answerInput.value.trim().toLowerCase();
-  const correctAnswer = clues[currentClueIndex].answer;
+  const correctAnswer = clues[currentClueIndex].answer.toLowerCase();
+
+  if (!userAnswer) {
+    alert("Please enter an answer!");
+    return;
+  }
 
   if (userAnswer === correctAnswer) {
     currentClueIndex++;
@@ -101,7 +115,6 @@ submitButton.addEventListener("click", () => {
           I know that You’ve always known I’m not the safest choice—the bad boy, the one who doesn’t play by the rules, but know that no matter my past , pesona, You will be safe, now and always.
           Forever Protector,
           [𝓪𝓷𝓪𝓼]
-        
       `;
 
       // Clear the message container
@@ -111,14 +124,20 @@ submitButton.addEventListener("click", () => {
       typeText(message, finalMessage);
 
       // Play the background music
-      backgroundMusic.play();
+      backgroundMusic.play().catch((error) => {
+        console.error("Failed to play audio:", error);
+      });
 
       // Trigger confetti animation
-      triggerConfetti();
+      if (typeof confetti === "function") {
+        triggerConfetti();
+      } else {
+        console.warn("Confetti library not loaded.");
+      }
     }
   } else {
-    // Play the wrong answer sound effect
-    wrongAnswerSound.play();
+    // Play a random wrong answer sound
+    playRandomWrongAnswerSound();
 
     // Shake the input box
     answerInput.classList.add("shake");
@@ -129,23 +148,3 @@ submitButton.addEventListener("click", () => {
     alert("يا غبييههههههه ركزيييييييييي");
   }
 });
-/*
-const clues = [
-  {
-    clue: "Clue 1: أيه هوا إسم اكتر حد فالعالم بيختار فديوهات معفنه واحنا بناكل😂 ؟ (Hint: مش محتاجه حاجه يعني.)",
-    answer: "تقي"
-  },
-  {
-    clue: "Clue 2: 👸إسم واحده عينيها احلا من عينيكي  (Hint: ركزي )",
-    answer: "مفيش"
-  },
-  {
-    clue: "Clue 3: إسم افشخ  حد بيعرف يصور ف العالم🤬 ؟ (Hint: 😂حسبي الله ونعم الوكيل)",
-    answer: "ميرنا"
-  },
-  {
-    clue: "Final Clue:  ♥إسم الشخص المفضل في حياتك واجمد واحد في الحياه كدا كدا? (Hint: 😎ثواني بعدل لياقة)",
-    answer: "انس"
-  }
-];
-*/

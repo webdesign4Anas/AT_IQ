@@ -37,15 +37,15 @@ const backgroundMusic = document.getElementById("background-music");
 
 // Array of wrong answer audio file paths
 const wrongAnswerSounds = [
-  "wrong1.mp3",
-  "wrong2.mp3",
-  "wrong3.mp3",
-  "wrong4.mp3",
-  "wrong5.mp3",
-  "wrong6.mp3",
-  "wrong7.mp3",
-  "wrong8.mp3",
-  "wrong9.mp3"
+  "1.mp3",
+  "2.mp3",
+  "3.mp3",
+  "4.m4a",
+  "5.mp3",
+  "6.mp3",
+  "7.mp3",
+  "8.mp3",
+  "9.mp3"
 ];
 
 // Function to play a random wrong answer sound

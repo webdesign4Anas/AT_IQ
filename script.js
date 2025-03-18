@@ -43,7 +43,7 @@ const wrongAnswerSounds = [
   
   "5.mp3",
   "6.mp3",
-  "7.mp3",
+  "11.mp3",
   "8.mp3",
   "9.mp3"
 ];

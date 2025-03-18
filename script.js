@@ -39,10 +39,8 @@ const backgroundMusic = document.getElementById("background-music");
 const wrongAnswerSounds = [
   "1.mp3",
   "2.mp3",
-  
-  
+  "4.m4a",
   "5.mp3",
-  
   "11.mp3",
   "8.mp3",
   "9.mp3"

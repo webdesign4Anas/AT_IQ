@@ -106,17 +106,16 @@ submitButton.addEventListener("click", () => {
 
       // Define the final message
       const finalMessage = `
-        Congratulations you found the treasure and the treasure is Me  !
-              خناقاتنا مفيدة ع المدي البعيد هيا لو اتكررت تاني همسح بيكي الارض اه انتي متخلفه زي منتي مش هنسي اكيد اقول كدا FOR BETTER OR WORSE
+        FOR BETTER OR WORSE Yo, you found the treasure. Surprise—it’s me. Yeah, I know, I’m kind of a big deal. 🖤 Now, let’s get one thing straight: our fights? They’re not fights. They’re sparring sessions. You throw punches, I throw sarcasm, and somehow, we both come out stronger. But if you ever push me too far, I’ll wipe the floor with you—metaphorically, of course. (Okay, maybe a little literally if you keep leaving your shoes in the middle of the hallway.)
 
-        يا دين امي علي العبقريه بجد انا مش مصدق انك عرفتي تجاوبي طول عمري بقول انك اذكي واحده ف الدنيا دي وعبقريه وبجد بجد صداااع من كتر النبغه الي انتي فيها لو ذكيه كدا ف الدراسه هتبقي الاولي ع الجمهورية ربنا يحميكي لمصر ويديم هبله وعبطك وتفضلي دايما متخلفه واهزق فيكي كدا كتير يارب
-        My Toto✨,
-          From the moment you came into my life, I knew I had found someone truly special. I need you to know, with every beat of my heart, that you are never alone. With my existence, you have nothing to fear—I will always be here to protect, support, and stand by your side.
-          No matter what life throws our way, I promise to be your rock, your shield, and your safe place. When the world feels overwhelming, lean on me. When doubts creep in, let me remind you of your strength and worth. When you feel lost, I will hold your hand and guide you back to the warmth of love and comfort.
-          You don’t have to carry your burdens alone, Your happiness, your dreams, and your peace mean everything to me. Through every storm, I will be your shelter. Through every challenge, I will be your strength. Through every joy, I will be the one celebrating with you.
-          I know that You’ve always known I’m not the safest choice—the bad boy, the one who doesn’t play by the rules, but know that no matter my past , pesona, You will be safe, now and always.
-          Forever Protector,
-          [𝓪𝓷𝓪𝓼]
+And let’s talk about you for a second. You’re a genius, but like, the kind of genius who forgets where they put their phone while holding it. You’re smart enough to run the world but still can’t figure out how to close a bag of chips properly. It’s adorable, really. Keep being you—just maybe don’t try to outsmart me. I’ve got a reputation to uphold. My Toto✨,
+From the moment you stumbled into my life (probably tripping over your own feet, let’s be honest), I knew you were special. Like, “I should probably write this down in my diary” special. And here’s the deal: you’re never alone. Why? Because I’m here, and I’m basically a human Swiss Army knife—I’ve got a tool for every problem.  Fear? Doubt? Weakness? Not on my watch. I’ll burn it all down before I let anything touch you. life’s a battlefield, but I’m your weapon. When the world tries to break you, I’ll be the one handing you the hammer to smash it back. When you’re lost, I’ll be your compass—pointing you straight toward trouble, because let’s be real, that’s where the fun is. And when you’re winning? I’ll be right there, stealing the spotlight but making sure you shine brighter.
+
+Now, let’s get one thing straight: I’m not the “safe choice.” I’m the “let’s ride a motorcycle off a cliff and see what happens” choice. I’m the guy your mom warned you about, the one who doesn’t follow rules, doesn’t apologize, and doesn’t back down. But for you? I’ll Try .
+Forever your bad boy,
+[𝓪𝓷𝓪𝓼]
+
+
       `;
 
       // Clear the message container

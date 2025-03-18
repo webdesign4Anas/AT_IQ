@@ -107,6 +107,8 @@ submitButton.addEventListener("click", () => {
       // Define the final message
       const finalMessage = `
         Congratulations you found the treasure and the treasure is Me  !
+              <h2>خناقاتنا مفيدة ع المدي البعيد هيا لو اتكررت تاني همسح بيكي الارض اه انتي متخلفه زي منتي مش هنسي اكيد اقول كدا FOR BETTER OR WORSE</h2>
+
         يا دين امي علي العبقريه بجد انا مش مصدق انك عرفتي تجاوبي طول عمري بقول انك اذكي واحده ف الدنيا دي وعبقريه وبجد بجد صداااع من كتر النبغه الي انتي فيها لو ذكيه كدا ف الدراسه هتبقي الاولي ع الجمهورية ربنا يحميكي لمصر ويديم هبله وعبطك وتفضلي دايما متخلفه واهزق فيكي كدا كتير يارب
         My Toto✨,
           From the moment you came into my life, I knew I had found someone truly special. I need you to know, with every beat of my heart, that you are never alone. With my existence, you have nothing to fear—I will always be here to protect, support, and stand by your side.

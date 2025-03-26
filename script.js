@@ -112,7 +112,7 @@ From the moment you stumbled into my life (probably tripping over your own feet,
 Now, let’s get one thing straight: I’m not the “safe choice.” I’m the “let’s ride a motorcycle off a cliff and see what happens” choice. I’m the guy your mom warned you about, the one who doesn’t follow rules, doesn’t apologize, and doesn’t back down. But for you? I’ll Try .
 Forever your bad boy,
 [𝓪𝓷𝓪𝓼] 
-واهم حاجه متنسيش تاكلي بيديفور
+😉 واهم حاجه متنسيش تاكلي بيديفور يا صقر
 
 
       `;
